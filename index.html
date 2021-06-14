@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link 
+     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet"
+     />
+    <link href="style.css" rel="stylesheet">
+    <title>Faux Gaming</title>
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <nav class="navbar">
+             <div class="navbar__brand">
+                <img src="logo.jpeg"  rel="logo" class="navbar__logo"/>
+            </div>
+            <div class="navbar__nav__items">
+                <button class="nav__item">Buy Games</button>
+            </div>
+            <div class="searchbar">
+                <form>
+                    <input type="Search games" placeholder="Search Games" id="searchbars"/>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!--Hero section-->
+        <section>
+            <div class="hero__image__container">
+                <img src="callofduty.jpg" rel="hero image" class="hero__image"/>
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text">Order the Latest Call of Duty game now.</h1>
+                <button class="primary__button">BUY NOW</button>
+            </div>
+        </section>
+
+        <!--Explore Section-->
+        <section class="Best__Sellers__container">
+            <h1 class="explore__best__text">Eplore our Best-Sellers</h1>
+            <div class="explore__menu__gradient__bg"></div>
+            <div class="explore__menu__list">
+                <!--GTA-->
+                <div class="game__card">
+                    <div class="game__card__image__container">
+                        <img src="gtav.jpg" alt="game card" class="game__image">
+                    </div>
+                    <div class="game__description">
+                        <h3 class="game__text">Grand Theft Auto 5</h3>
+                        <p>Third-Person, Open-World, New missions <span style="color:red">+more</span>
+                        </p>
+                    </div>
+                </div>
+                <!--Valorant-->
+                <div class="game__card">
+                    <div class="game__card__image__container">
+                        <img src="valo.jpg" alt="game card" class="game__image">
+                    </div>
+                    <div class="game__description">
+                        <h3 class="game__text">Valorant</h3>
+                        <p>Third-Person, Open-World, New missions <span style="color:red">+more</span>
+                        </p>
+                    </div>
+                </div>
+                <!--Cyberpunk-->
+                <div class="game__card">
+                    <div class="game__card__image__container">
+                        <img src="cyberpunk.jpg" alt="game card" class="game__image">
+                    </div>
+                    <div class="game__description">
+                        <h3 class="game__text">Cyberpunk 2077</h3>
+                        <p>Third-Person, Open-World, New missions <span style="color:red">+more</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

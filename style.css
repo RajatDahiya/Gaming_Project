@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #444343;
+}
+
+.primary__button{
+    background-image: linear-gradient(
+      to right,
+      #918887 0%,
+      #64595e 51%,
+      #2c2b2b 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar__brand{
+    width: 100px;
+}
+
+.navbar__logo{
+    width: 100%;
+}
+
+.nav__item {
+    background-image: linear-gradient(
+      to right,
+      #918887 0%,
+      #64595e 51%,
+      #2c2b2b 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.nav__item:hover{
+    border: 2px solid rgb(5, 5, 5);
+}
+
+.searchbar{
+    margin-left: auto;
+}
+#searchbars{ 
+    background: transparent;
+    border: none;
+}
+
+.hero__image__container{
+    width: 100%;
+}
+  
+.hero__image{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+  
+.hero__text{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.explore__best__text{
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+  
+.game__card{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+  
+.game__card__image__container {
+    width: 100%;
+}
+  
+.game__image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+  
+.game__card__description {
+    padding: 15px;
+}
